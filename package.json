@@ -3,9 +3,6 @@
   "version": "1.0.14",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
-  "files": [
-    "./build"
-  ],
   "license": "MIT",
   "scripts": {
     "clean": "del ./build/*",
