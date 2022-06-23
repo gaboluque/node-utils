@@ -6,7 +6,7 @@ class NotFoundError extends customError_1.CustomError {
     constructor() {
         super("Route not found");
         this.statusCode = 404;
-        // Only because we are extending a built in class
+        // Only because we are extending a built-in class
         Object.setPrototypeOf(this, NotFoundError.prototype);
     }
     serializeErrors() {
