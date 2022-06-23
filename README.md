@@ -11,6 +11,6 @@ TO DO:
 
 To install:
 
-```npm install @gluque/nodejs-utils```
+```npm install @gluque/node-utils```
 
-```yarn add @gluque/nodejs-utils```
+```yarn add @gluque/node-utils```
