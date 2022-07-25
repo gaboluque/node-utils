@@ -26,5 +26,6 @@ __exportStar(require("./middlewares/validateRequest"), exports);
 __exportStar(require("./middlewares/currentUser"), exports);
 __exportStar(require("./events/basePublisher"), exports);
 __exportStar(require("./events/baseListener"), exports);
+__exportStar(require("./events/subjects"), exports);
 __exportStar(require("./events/ticketCreatedEvent"), exports);
 __exportStar(require("./events/ticketUpdatedEvent"), exports);
