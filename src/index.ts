@@ -12,5 +12,6 @@ export * from "./middlewares/currentUser";
 
 export * from "./events/basePublisher";
 export * from "./events/baseListener";
+export * from "./events/subjects";
 export * from "./events/ticketCreatedEvent";
 export * from "./events/ticketUpdatedEvent";
