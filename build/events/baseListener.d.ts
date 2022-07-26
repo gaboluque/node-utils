@@ -10,7 +10,7 @@ export declare abstract class Listener<T extends Event> {
     abstract onMessage(data: T['data'], msg: Message): void;
     private client;
     protected ackWait: number;
-    protected constructor(client: Stan);
+    constructor(client: Stan);
     subscriptionOptions(): import("node-nats-streaming").SubscriptionOptions;
     listen(): void;
     parseMessage(msg: Message): any;
